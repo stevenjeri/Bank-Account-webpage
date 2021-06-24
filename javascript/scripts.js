@@ -23,7 +23,7 @@ $(function() {
         let newBalance = initialDeposit;
         const userAccount = new BankAccount(name, initialDeposit, newBalance);
         console.log(userAccount);
-        $('.new-account').remove();
+        // $('.new-account').remove();
         $('.balance-here').text(`$${userAccount.balance}`);
 
         $('#make-deposit').submit(function(event) {

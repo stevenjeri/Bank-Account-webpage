@@ -10,10 +10,12 @@ h1 {
 }
 
 .account-balance-display {
-    background-color: white;
+    background-color: transparent;
     padding-bottom: 2%;
     margin-left: 20%;
     margin-right: 50%;
+    color: white;
+    border-style: solid;
 }
 
 .new-account {
