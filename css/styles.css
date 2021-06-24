@@ -1,0 +1,47 @@
+body {
+    background-image: url(../images/backgroun2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.account-balance-display {
+    background-color: white;
+    padding-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 50%;
+}
+
+.new-account {
+    padding-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 40%;
+    color: white;
+}
+
+.deposits-withdrawals {
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+input[type=text] {
+    background-color: transparent;
+}
+
+input[type=number] {
+    background-color: transparent;
+}
+
+#deposits {
+    color: white;
+}
+
+#withdrawals {
+    color: white;
+}
+

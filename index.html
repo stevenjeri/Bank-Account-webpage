@@ -11,6 +11,60 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>WELCOME TO MORINGA BANK</h1>
+    <div class="Container">
+        <div class="new-account">
+            <h2>Register new account:</h2>
+            <form id="submit-new-account">
+                <div class="form-group">
+                    <label for="user-name">Name:</label>
+                    <input required type="text" class="form-control" id="user-name" placeholder="Full name...">
+                </div>
+                <div class="form-group">
+                    <label for="Initial-deposit">Initial deposit:</label>
+                    <input required type="number" class="form-control" id="Initial-deposit">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-success">Open Account</button>
+            </form>
+        </div>
+        <div class="deposits-withdrawals">
+            <div class="form-row">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div id="deposits">
+                            <form id="make-deposit">
+                                <h2>Deposit fund:</h2>
+                                <div class="form-group">
+                                    <label for="current-deposit">Deposit amount</label>
+                                    <input required type="number" class="form-control" id="current-deposit">
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-success">Deposit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="withdrawals">
+                            <form id="make-withdrawal">
+                                <h2>Withdraw fund:</h2>
+                                <div class="form-group">
+                                    <label for="current-withdrawal">Withdrawal amount</label>
+                                    <input required type="number" class="form-control" id="current-withdrawal">
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-danger">Withdraw</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="account-balance-display">
+            <h2>Balance:</h2>
+            <p><span class="balance-here"></span></p>
+        </div>
+    </div>
+        
 </body>
 </html>
