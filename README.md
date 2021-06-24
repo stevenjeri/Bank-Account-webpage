@@ -6,7 +6,7 @@ A webpage for Bank account which allow the user to make withdrawals, deposits an
 ## Setup/Installation Requirements
 * Clone the repo
 
-$ git clone https://github.com/stevenjeri/Delani-Studio-project.git
+$ git clone https://github.com/stevenjeri/Bank-Account-webpage.git
 
 * Open  the project on VS Code/ your editor of choice
 * Open the project on live server
